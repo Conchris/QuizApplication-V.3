@@ -1,6 +1,13 @@
 <?xml version = "1.0" encoding = "utf-8" ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd>
 <html xmlns = "http://www.w3.org/1999/xhtml">
+<style media="screen">
+  ul{
+    list-style-type: none;
+    left:90%;
+    position: absolute;
+  }
+</style>
   <head>
     <link rel="stylesheet" href="Main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -8,6 +15,9 @@
     <title></title>
   </head>
   <body>
+    <ul>
+      <li id="list"> <a href="logout.php">Log Out</a> </li>
+    </ul>
     <div class="tabledesign">
 
           <p></i><i class="fas fa-paint-brush"></i><a href="Art/art.php">ART</a></p>
